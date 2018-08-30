@@ -47,4 +47,42 @@ var force = mass * acceleration    //implicitly defined
 
 print("force = \(force)")
 
+print("\(distance) is the distance")
+
+if lost == true && expensive == true{
+    print("I am really sorry! I will get the manager.")
+}else if lost == true && expensive == false{
+    print("Here is a coupon for 10% off")
+}
+
+switch choice{
+case 1:
+    print("You chose 1.")
+    break
+case 2:
+    print("You chose 2.")
+    break
+case 3:
+    print("You chose 3.")
+    break
+default:
+    print ("You made an unkown choice.")
+    break
+}
+
+print("\(integral) is an integral")
+
+for i in 5...10{
+    print("i = \(i)")
+}
+
+var age : Int = 0
+
+while age < 6 {
+    print("age = \(age)")
+    age += 1
+}
+
+print("\(greeting) \(name)")
+
 
