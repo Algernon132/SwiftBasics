@@ -75,7 +75,7 @@ print("\(integral) is an integral")
 for i in 5...10{
     print("i = \(i)")
 }
-
+ 
 var age : Int = 0
 
 while age < 6 {
